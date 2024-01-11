@@ -7,5 +7,6 @@ module.exports = Config = {
     port: process.env.PORT || "3001",
     usersTable: process.env.TBUSERS || "users",
     checklistTable: process.env.TBCHECKLIST || "checklist",
+    itemsTable: process.env.TBITEMS || "items",
     tokenKey: process.env.TOKENKEY || "admin@1234"
 }
